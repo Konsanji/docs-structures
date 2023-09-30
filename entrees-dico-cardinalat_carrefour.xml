@@ -1,0 +1,2685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>
+					<title type="main" xml:lang="fre">
+						Dictionnaire universel, 
+						contenant généralement tous les mots françois, 
+						tant vieux que modernes, 
+						&amp; les termes des sciences &amp; des arts : 
+						Tome premier. A-D. 1725.
+					</title>
+					<title type="sub">Une édition numérique</title>
+					<title type="sub">Lettre C : CARDINALAT - CARREFOUR</title>
+				</title>
+				<author xml:id="Furetière" role="compiler" 
+					key="Furetière, Antoine (1619-1688)" 
+					corresp="http://www.isni.org/isni/0000000108580490">
+					<surname>Furetière</surname>
+					<forename>Antoine</forename>
+				</author>
+				<author xml:id="Basnage" role="compiler" 
+					key="Basnage de Beauval, Henri (1656-1710)" 
+					corresp="http://www.isni.org/isni/0000000080773257">
+					<surname>Basnage de Beauval</surname>
+					<forename>Henri</forename>
+				</author>	
+				<author xml:id="Brutel" role="compiler"
+					key="Brutel de la Rivière, Jean-Baptiste (1669-1742)" 
+					corresp="https://isni.org/isni/0000000080021848">
+					<surname>Brutel de la Rivière</surname>
+					<forename>Jean-Baptiste</forename>
+				</author>
+				<respStmt>
+					<name xml:id="An" role="annotator" 
+						ref="mailto:ji.an@sorbonne-nouvelle.fr">
+						<surname>An</surname>
+						<forename>Ji</forename>
+					</name>
+					<resp>
+						Encodage XML/TEI
+						<date when="2023-04-28">le 28 avril 2023</date>
+					</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					Edition numérique de XML/TEI basée sur la quatrième édition du Dictionnaire universel 
+					dans le cadre du cours Document structuré du Master pluriTAL pour l'année universitaire 2023/2024.
+				</edition>
+				<respStmt>
+					<resp>Annoté par</resp>
+					<name>Ji An</name>
+				</respStmt>
+			</editionStmt>
+			<extent>
+				<measure unit="kB" quantity="85">85 KB</measure>
+				<measure unit="page" quantity="7">7 pages de la source matérielle</measure>
+				<measure unit="entry" quantity="73">73 entrées</measure>
+			</extent>
+			<publicationStmt>
+				<authority>
+					<name>Ji An</name>
+				</authority>
+				<availability>
+					<p>Disponible uniquement à des fins de recherche universitaire.</p>
+					<licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="abstract">
+					L'original provient de la Bibliothèque municipale de Lyon, 
+					où il a été numérisé et mis en ligne sur numelyo 
+					<date when="2012-03-28">le 28 mars 2012</date>.
+				</note>
+				<note type="url">
+					https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001102513905
+				</note>
+			</notesStmt>
+			<sourceDesc>
+				<bibl>
+					<title xml:lang="fre">
+						Dictionnaire universel, 
+						contenant généralement tous les mots françois, 
+						tant vieux que modernes, 
+						&amp; les termes des sciences &amp; des arts : 
+						Tome premier. A-D.
+					</title>
+					<author>
+						<surname>Furetière</surname>
+						<forename>Antoine</forename>
+					</author>
+					<author>
+						<surname>Basnage de Beauval</surname>
+						<forename>Henri</forename>
+					</author>
+					<author>
+						<surname>Brutel de la Rivière</surname>
+						<forename>Jean-Baptiste</forename>
+					</author>
+					<edition>Quatrième édition</edition>
+					<pubPlace>La Haye</pubPlace>
+					<publisher>
+						<persName>Pierre Husson</persName>
+						<persName>Thomas Johnson</persName>
+						<persName>Jean Swart</persName>
+						<persName>Jean Van Duren</persName>
+						<persName>Charles Le Vier</persName>
+						<persName>La Veuve Van Dole</persName>
+					</publisher>
+					<date when="1725">1725</date>
+					<idno type="institution">Bibliothèque municipale</idno>
+					<idno type="ville">Lyon</idno>
+					<note type="url">
+						https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001102513905
+					</note>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	
+	<text xml:lang="fre">
+		<body>
+			<div>
+				<head>CAR</head>
+
+				<entry xml:id="cardinalat">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARDINALAT</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							La dignité de Cardinal, 
+							&amp; la féconde dignité de l'Eglise. Demander le 
+							cardinalat. Parvenir au cardinalat. La promotion au 
+							cardinalat fait vaquer en regale l'Evêché de celui qui 
+							est promu. La raison est que le titre qu'on leur assigne 
+							est censé un Benefice de Cure, lequel oblige à residence 
+							à moins que le Pape n'en donne dispense. Il y a une 
+							autre raison : c'est que les Cardinaux deviennent 
+							Confeillers du Pape, qui est un Prince temporel ; ce qui 
+							est prohibé en France<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="cardon">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARDON</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Espece d'artichaud, dont la tige 
+							est bonne à manger. Des cardons d'Espagne. Le 
+							cardon porte une pomme épineuse qu'on ne mange point<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+				
+				<entry xml:id="care1">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARE</orth>
+						</form><pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos><gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense n="1">
+						<def>
+							Vieux mot qui signifiait autrefois visage ; 
+							car on disoit, Il a la care vieille. On dit même encore 
+							acarer &amp; acaration ; pour dire, Confronter, &amp; 
+							confrontation, en plusieurs Provinces, &amp; sur tout en 
+							celles au delà la Loire<pc>.</pc>
+						</def>
+					</sense>
+					<etym>
+						<lbl>Ce mot vient de l'</lbl>
+						<lang>Espagnol</lang>
+						<foreign>cara</foreign> 
+						<pc>,</pc> 
+						<gloss>
+							qui signifie aussi le visage ; 
+							on le pourroit encore tirer du <lang>Grec</lang> 
+							<foreign>cara</foreign> ou <foreign>care</foreign>, 
+							qui veut dire la tête.
+						</gloss>
+					</etym>
+					<sense n="2">
+						<form><orth>Care</orth></form><pc>,</pc>
+						<def>se dit maintenant de la taille.</def>
+						<xr type="see">
+							<lbl>Voyez</lbl> 
+							<ref target="#quarre">Quarre</ref><pc>.</pc>
+						</xr>
+					</sense>
+				</entry>
+				
+				<entry xml:id="care2">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARE</orth>
+						</form><pc>,</pc>
+						<lbl>ou</lbl>
+						<form type="variant">
+							<orth>CARUS</orth>
+						</form><pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<usg type="domain" ana="#term_medecine">
+							Terme de Medecine
+						</usg><pc>.</pc>
+						<def>
+							C'est une espece d'affection soporeuse, qui n'est pas si 
+							forte que l'apoplexie, mais qui l'est plus que la lethargie. 
+							Le care degenere souvent en apoplexie<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+				
+				<entry xml:id="carenage">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARENAGE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+						<lbl>&amp; par corruption</lbl>
+						<form type="variant">
+							<orth>CRANAGE</orth>
+						</form>
+						<pc>;</pc>
+					</form>
+					<sense>
+						<def>
+							c'est un endroit sur le bord de la mer commode 
+							pour donner la carene aux vaisseaux<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carence">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARENCE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense>						
+						<usg type="domain" ana="#terme_pratique">
+							Defaut ; terme de Pratique
+						</usg>
+						<pc>,</pc>
+						<def>
+							qui se trouve dans l'Ordonnance des Eaux &amp; Forêts : elle 
+							porte que les exploits de carence de biens, ou d'insolvabilité, 
+							ne soient valables, s'ils ne sont fortifiez de 
+							bonnes preuves<pc>.</pc>
+						</def>
+					</sense>
+					<etym>
+						<lbl>Ce mot vient du</lbl>
+						<lang>Latin</lang>
+						<foreign>carentia</foreign> 
+						<pc>.</pc> 
+					</etym>
+				</entry>
+
+				<entry xml:id="carene">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARENE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							est proprement la quille du vaisseau, ou 
+							la piece de bois qui est au fond, sur laquelle se fait tout 
+							l'assemblage. Mais elle se prend plus souvent pour tout 
+							le creux du navire, ou fond de cale, &amp; contient tout 
+							l'espace qui est depuis la quille jusqu'à la ligne de l'eau<pc>.</pc>
+						</def>
+						<note>
+							On dit, Donner carene, quand on met le navire sur le 
+							côté, pour le calfater &amp; fermer toutes les voyes d'eau, 
+							ou pour lui donner le suif : enfin pour radouber le vaisseau 
+							dans ses œuvres vives. Les matelots par corruption 
+							disent cran ; Mettre un vaisseau en cran ; au lieu de carene.
+						</note>
+					</sense>
+					<etym>
+						<lbl>Ce mot vient du</lbl>
+						<lang>Latin</lang>
+						<foreign>carena</foreign> 
+						<pc>.</pc> 
+					</etym>
+				</entry>
+
+				<entry xml:id="carener">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARENER</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>v.</pos>
+							<subc>act.</subc>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Donner carene au vaisseau ; le 
+							mettre sur le côté, en l'appuyant sur le ponton, afin 
+							qu'il presente aux Calfateurs la partie qui a besoin 
+							d'être carenée, pour lui donner le radoub, ou le suif. 
+							Les vaisseaux de guerre reçoivent la carene, ou les 
+							oeuvres de marée de trois en trois ans<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="caresme">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARESME</orth>
+						</form>
+						<pc>,</pc> <lbl>ou</lbl>
+						<form type="variant">
+							<orth>CAREME</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Temps de 
+							penitence &amp; d'abstinence &amp; de jeune pour se preparer 
+							à celebrer la Fête de Pâques.  Le Carême dure 46. 
+							jours ; ou jûne pendant 40. jours ; &amp; on excepte les 
+							six dimanches ; pendant lesquels aussi bien que pendant 
+							les autres 40. jours on s'abstient de manger de la viande 
+							&amp;c. à moins que l'on n'ait une permission, ou une 
+							dispense.  Anciennement dans l'Eglise Latine le Carême 
+							n'étoit que de 36. jours, &amp; ne commençoit qu'au 
+							Dimanche de la 6. semaine avant Pâques, qu'on appelle 
+							Quadragesime. Dans le IX. siecle pour imiter 
+							plus precisément le jûne de 40. jours que J. Christ 
+							souffrit au  desert, quelques-uns ajoûterent 4. jours 
+							avant la Quadragesime, &amp; cet usage a été suivi dans 
+							l'Occident : car en ôtant les six Dimanches où l'on ne 
+							jûne point, il reste precisément 40. jours de jûne, 
+							à l'imitation de J. CHRIST. Il en faut excepter 
+							l'Eglise de Milan qui ne commence encore le Carême 
+							que le Dimanche de la Quadragesime.  Les anciens 
+							Moines Latins faisoient trois Carêmes; le grand, devant 
+							Pâques ; l'autre devant Noël, qu'on appelloit de la 
+							St. Martin ; &amp; l'autre de St. Jean Baptiste, après la 
+							Pentecôte ; tous trois de quarante jours.  Les Grecs en 
+							observoient quatre autres outre celui de Pâques ; des 
+							Apôtres, de l'Assomption, de Noël, &amp; de la Transfiguration ; 
+							mais ils les reduisoient à sept jours chacun. Les 
+							Jacobites en font un cinquiéme, qu'ils appellent de la 
+							penitence de Ninive.  Les Caldéens &amp; les Nestoriens 
+							de même. Les Maronites en font six, y ajoûtant celui 
+							de l'Exaltation de Ste. Croix. Les Armeniens en font 
+							huit de differente durée. On dit que le Carême est bas, 
+							quand il commence en Fevrier ; &amp; qu'il est haut quand 
+							il commence en Mars.  La Mi-carême est le Jeudi qui 
+							est au milieu du Carême.  Faire le Carême, c'est, 
+							Observer les regles du jûne. Rompre le Carême, c'est 
+							y contrevenir ; manger gras.  On appelle fruits de 
+							Carême, les fruits secs &amp; reservez pour le Carême, 
+							comme raisins, figues, pruneaux, brugnoles, &amp;c. 
+							Et viandes de Carême, le poisson, &amp; tous les autres 
+							mets, à la reserve de la chair.
+						</def>
+						<etym>
+							<lbl>Ce mot vient de</lbl>
+							<foreign>quadragesime</foreign>
+							<pc>,</pc> 
+							<bibl><author>Nicod.</author></bibl>
+						</etym>
+						<note>
+							On appelle aussi Carême, le Recueil des Sermons qu'a 
+							fait un Predicateur pendant un Carême. Parmi les 
+							Sermonaires il y en a quantité qui ont fait des Carêmes, 
+							des Avens : qui ont fait imprimer leurs Carêmes.
+						</note>
+						<note>
+							On dit proverbialement, qu'un homme nous a prêché 
+							sept ans pour un Carême ; pour dire, qu'il nous a 
+							souvent dit, &amp; rebattu la même chose. On dit, que pour 
+							trouver le Carême court, il faut faire une dette payable 
+							à Pâques. On dit aussi, qu'il nous donne le Carême 
+							bien haut, quand il nous promet quelque chose qui ne 
+							viendra de long temps. On dit de même, qu'on fait 
+							faire un long Carême à quelcun, quand on le fait long 
+							temps attendre après une chose qu'il souhaite. On dit 
+							encore, qu'on met le Carême bien haut, quand on exige 
+							des choses trop difficiles. On dit d'une chose qui arrive 
+							toûjours à certain temps ; cela ne manque non plus que 
+							Mars en Carême. On dit aussi, que cela vient comme 
+							Mars en Carême ; pour dire, fort à-propos. On dit 
+							aussi, qu'un homme a jûné le Carême, quand on lui 
+							veut reprocher qu'il est bien maigre, ou bien pâle.
+						</note>
+					</sense>
+					<re>
+						<form type="lemmaGrp">
+							<form type="compound">
+								<orth>Caresme-prenant</orth>
+							</form>
+							<pc>.</pc>
+							<gramGrp>
+								<pos>s.</pos>
+								<gen>m.</gen>
+							</gramGrp>
+						</form>
+						<sense>
+							<def>
+								Le Mardi qui precede le 
+								Carême, &amp; quelquefois tout le temps du Carnaval depuis 
+								les Rois. Les Gascons disent Carmentran ; &amp; dans 
+								la basse Latinité on a dit Carementranus, Du Cange. 
+								On a aussi appellé carnisprivium, le Carême ; &amp; carnivora 
+								le Mardi gras, à cause que ce jour-là on consume 
+								tout ce qui reste de chair ; &amp; carnicapium ; en Espagnol 
+								carnes tollendas<pc>.</pc>
+							</def>
+							<note>
+								On appelle aussi des Carêmes prenans, des gens du peuple 
+								qui se masquent de cent façons ridicules, &amp; qui courent 
+								les ruës.
+							</note>
+							<note>
+								On dit aussi des personnes mal mises, qui ont des habits 
+								ridicules, hors de mode, &amp; extravagans, qu'ils sont 
+								habillez en vrais Carêmes-prenans.  On dit que vous 
+								voulez donner vôtre fille à un Carême-prenant, Mol.
+							</note>
+							<note>
+								On dit proverbialement, qu'il faut faire son Carême-prenant 
+								avec sa femme, &amp; Pâques avec son Curé. 
+								On dit aussi populairement, Tout est de Carême-prenant ; 
+								pour dire, que plusieurs petits libertinages sont 
+								permis ce jour-là<pc>.</pc>
+							</note>
+						</sense>
+					</re>
+				</entry>
+
+				<entry xml:id="caressant">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARESSANT</orth>
+						</form><pc>,</pc>
+						<form type="inflected">
+							<orth type="adj">ante</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>adj.</pos>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Flatteur ; qui caresse beaucoup.  
+							Etre d'un humeur caressante.  Vous 
+							n'étes ni trop caressante, ni trop flatteuse, Le Ch de M. 
+							Remarquez dans Terence un vieillard avare, &amp; rebarbaratif, 
+							qui s'avise tout-d'un-coup de devenir caressant, 
+							&amp; liberal, Le P. Le B.
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="caresse">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARESSE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense n="1">
+						<def>
+							Demonstration d'amitié, ou de bien-veillance ; 
+							cajollerie ; bon accueil. Faire mille caresses. 
+							Il dissimula sa baine par de feintes caresses, Mez. La 
+							Reine sembloit par ses regards nous faire des caresses, 
+							Font. Remarquez le ris forcé, &amp; les caresses contrefaites 
+							d'un Courtisan, La Br. Je vous voi accabler 
+							un homme de caresses, Mol.
+						</def>
+					</sense>
+					<sense n="2">
+						<form><orth>Caresse</orth></form>
+						<pc>,</pc>
+						<def>
+							signifie encore, Marque d'amour.  Mon 
+							cœur fut seduit par de si douces caresses, &amp; je ne pus 
+							soupçonner qu'elles fussent trompeuses, Vill. Les 
+							caresses d'un vieillard sont bien degoûtantes pour une 
+							jeune épouse, Bell. Les caresses d'une jeune femme 
+							sont meurtrieres pour un vieillard, Le Ch. d'H.
+						</def>
+					</sense>
+					<sense n="3">
+						<form type="lemmaGrp">
+							<form><orth>Caresse</orth></form>
+							<pc>,</pc>
+							<gramGrp><pos>fig.</pos></gramGrp>
+						</form>
+						<def>
+							signifie, les faveurs, les charmes. Je 
+							ne me soucie ni des caresses ni des mepris de la Fortune, 
+							Oe. M. Il ne faut pas se fier aux caresses du monde ; 
+							elles sont trop trompeuses ; ce sont autant de pieges que 
+							le monde nous tend, Bou.
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="caresser">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARESSER</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>v.</pos>
+							<subc>act.</subc>
+						</gramGrp>
+					</form>
+					<sense n="1">
+						<def>
+							Cajoller ; marquer de l'estime, 
+							&amp; de l'amitié. Faire des caresses. La foiblesse de l'homme, 
+							c'est d'aimer qu'on le caresse.  Pourquoi caresser 
+							les gens que vous haïssez dans le fond ? Bell.
+						</def>
+						<cit type="example">
+							<quote>
+								Quel avantage a-t-on qu'un homme vous caresse, 
+								Lorsqu'au premier faquin il court en faire autant ?
+							</quote>
+							<bibl><author>Mol.</author></bibl>
+						</cit>
+					</sense>
+					<sense n="2">
+						<form><orth>Caresser</orth></form>
+						<pc>.</pc>
+						<def>
+							Cajoller ; badiner ; agir en Amant.  
+							Caresser sa maîtresse.  Caresser sa femme<pc>.</pc>
+						</def>
+					</sense>
+					<re>
+						<form type="lemma"><orth>Caresser</orth></form>
+						<pc>,</pc> 
+						<form type="derivative"><orth>Caresse</orth></form>
+						<pc>,</pc>
+						<form type="derivative"><orth>Caressant</orth></form>
+						<pc>,</pc>
+						<note>
+							dans un 
+							sens moins significatif signifie, un simple badinage ; 
+							de petites façons, de petites grimaces qui expriment 
+							de la joye, &amp; de l'amitié.  Caresser un enfant.  
+							Cette jeune fille est fort caressante ; elle m'a fait 
+							bien des caresses. On le dit aussi des Animaux. Voilà 
+							un chien bien caressant ; il m'a fait mille caresses.
+						</note>
+					</re>
+					<re>
+						<form type="lemmaGrp">
+							<form><orth>Caressé</orth></form>
+							<pc>,</pc>
+							<form type="inflected">
+								<orth type="part">ée</orth>
+							</form>
+							<pc>.</pc>
+							<gramGrp>
+								<pos>part.</pos>
+								<lbl>&amp;</lbl>
+								<pos>adj.</pos>
+							</gramGrp>
+						</form>
+						<etym>
+							<lbl>Tous ces mots viennent du</lbl> 
+							<lang>Latin</lang> 
+							<foreign>charus</foreign>
+							<pc>.</pc>
+						</etym>
+					</re>	
+				</entry>
+
+				<entry xml:id="caret">
+					<form type="lemma">
+						<orth>CARET</orth>
+					</form><pc>.</pc>
+					<xr type="see">
+						<lbl>Voyez</lbl> 
+						<ref target="#carret">Carret</ref>
+						<pc>.</pc>
+					</xr>
+				</entry>
+
+				<entry xml:id="carfour">
+					<form type="lemma">
+						<orth>CARFOUR</orth>
+					</form><pc>.</pc>
+					<xr type="see">
+						<lbl>Voyez</lbl>
+						<ref target="#carrefour">Carrefour</ref>
+						<pc>.</pc>
+					</xr>
+				</entry>
+
+				<entry xml:id="cargaison">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARGAISON</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<usg type="domain" ana="#term_marine">
+							Terme de Marine
+						</usg>
+						<pc>.</pc>
+						<def>
+							C'est la 
+							charge d'un vaisseau, &amp; le temps propre pour charger 
+							les navires. C'est aussi la facture des marchandises 
+							chargées dans le vaisseau.  La cargaison de ce vaisseau est de 
+							telle &amp; telle marchandise. Ce mois-ci est le temps de 
+							la cargaison des vins, des moruës<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carguer">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARGUER</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>v.</pos>
+							<subc>act.</subc>
+						</gramGrp>
+					</form>
+					<sense>
+						<usg type="domain" ana="#term_marine">
+							Terme de Marine
+						</usg>
+						<pc>.</pc>
+						<def>
+							C'est Trousser 
+							la voile, &amp; l'accourcir par le moyen des cordes 
+							appellées cargues, qui la levent en haut jusqu'à la moitié 
+							&amp; au tiers du mât. On dit autrement, Bourcer la voile<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="cargues">
+					<form type="lemma">
+						<orth>CARGUES</orth>
+					</form>
+					<pc>.</pc>
+					<sense>
+						<def>
+							Ce mot est feminin quand il est seul, 
+							&amp; masculin quand il est joint avec un autre.  Ainsi on 
+							dit le cargue-bouline, le cargue-point, &amp; non pas la 
+							cargue-point &amp;c. Les cargues sont des cordes pour 
+							carguer, ou trousser la voile. Les cargues-points, ou tailles-points, 
+							sont des cordes amarrées aux points, ou aux angles 
+							d'enbas de la voile pour la retrousser.  Les cargues-fond 
+							ou tailles de fond, sont des cordes qui sont amarrées 
+							au milieu du bas de la voile, pour la retrousser par 
+							le milieu.
+						</def>
+						<note>
+							Il y a aussi les cargues d'artimon, &amp; quand on parle de ces 
+							fortes de cargues, on dit les cargues du vent, &amp; les 
+							cargues dessous le vent.  Les unes sont du côté que le vent 
+							vient, &amp; les autres du côté opposé<pc>.</pc>
+						</note>
+					</sense>
+					<re n="1">
+						<form type="phrase"><orth>Cargues à vuë</orth></form>
+						<pc>,</pc>
+						<sense>
+							<def>
+								sont une petite manœuvre passée 
+								dans une poulie sous la grande hune, &amp; qui est frapée 
+								à la ralingue de sa voile, pour la lever lorsqu'on veut 
+								voir par dessous. Cette manœuvre n'est d'usage que 
+								dans de cartains vaisseaux<pc>.</pc>
+							</def>
+						</sense>
+					</re>
+					<re n="2">
+						<form type="compound">
+							<orth>Carguebas</orth>
+						</form>
+						<pc>,</pc> <lbl>ou</lbl>
+						<form type="variant"><orth>Calebas</orth></form>
+						<pc>,</pc>
+						<sense>
+							<def>
+								est un cordage qui 
+								sert à élever les pacfis, ou grandes voiles<pc>.</pc>
+							</def>
+						</sense>
+					</re>
+					<re n="3">
+						<form type="compound">
+							<orth>Cargues-boulines</orth>
+						</form>
+						<pc>,</pc>
+						<sense>
+							<def>
+								sont les cordes amarrées au 
+								milieu des côtez de la voile pour trousser, ou carguer 
+								la voile par les côtez. On les appelle autrement 
+								contre-fanons.  Lorsqu'on trousse, ou qu'on raccourcit les 
+								voiles par enhaut, cela s'appelle rider<pc>.</pc>
+							</def>
+						</sense>
+					</re>
+				</entry>
+
+				<entry xml:id="cargueur">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARGUEUR</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<usg type="domain" ana="#term_marine">
+							Terme de Marine</usg> 
+						<pc>;</pc>
+						<def>
+							c'est une 
+							poulie qui sert à amener, &amp; à guinder le perroquet. 
+							On le met tantôt au tenon du perroquet, &amp; tantôt 
+							à son chouquet, ou à ses barres<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="cariage">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARIAGE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<usg type="domain" ana="#term_populaire">
+							Terme populaire</usg>
+						<pc>,</pc>
+						<def>
+							qui ne se dit 
+							qu'en cette phrase proverbiale, Tout le cariage ; pour 
+							dire, Toute une famille, tout un menage de pauvres 
+							gens, comme si tout pouvoit tenir dans une charrette, 
+							ou cariole.
+						</def>
+						<etym>
+							<lbl>Ce mot vient de</lbl>
+							<foreign>carragium</foreign>
+							<pc>,</pc>
+							<gloss>
+								qu'on a dit pour carrago, &amp; 
+								qui se trouve dans Trebellius Pollio pour signifier le 
+								charroi d'une armée, Men. Du Cange temoigne qu'on 
+								a dit caragium dans le même sens en la basse Latinité.
+							</gloss>
+						</etym>
+					</sense>
+				</entry>
+
+				<entry xml:id="cariatides">
+					<form type="lemma">
+						<orth>CARIATIDES</orth>
+					</form>
+						<pc>.</pc>
+					<xr type="see">
+						<lbl>Voyez</lbl>
+						<ref target="#caryatides">Caryatides</ref>
+						<pc>.</pc>
+					</xr>
+				</entry>
+
+				<entry xml:id="carie">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARIE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Corruption de l'os causée par une humeur 
+							âcre, &amp; rongeante.  Lorsque le pus croupit 
+							long temps sur l'os il s'imbibe dans sa substance, &amp; y 
+							cause la carie<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carier">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARIER</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>v.</pos>
+							<subc>act.</subc>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Qui se dit des dents &amp; des autres os 
+							qui se gâtent &amp; se pourrissent.  Cet ulcere lui a carié 
+							l'os de la jambe. On appelle aussi du bois carié, du bois 
+							qui est rongé de vers, &amp; qui se pourrit<pc>.</pc>
+						</def>
+					</sense>
+					<re>
+						<form type="lemmaGrp">
+							<form><orth>Carié</orth></form><pc>,</pc>
+							<form type="inflected">
+								<orth type="part">ée</orth>
+								<pc>.</pc>
+							</form>
+							<gramGrp>
+								<pos>part.</pos>
+								<subc>pass.</subc>
+                        		<lbl>&amp;</lbl>
+                        		<pos>adj.</pos>
+							</gramGrp>
+						</form>
+						<etym>
+							<lbl>Ces mots se tirent du</lbl>
+							<lang>Latin</lang>
+							<foreign>caries</foreign>
+							<pc>,</pc>
+							<gloss>qui signifie vermoulure, pourriture.</gloss>
+						</etym>
+					</re>
+				</entry>
+
+				<entry xml:id="carillon">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARILLON</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense n="1">
+						<def n="1">
+							Son de cloche agreable &amp; harmonieux 
+							qui se fait en temoignage de rejouïssance aux 
+							jours des Fêtes de l'Eglise, ou de quelque joye publique.
+						</def>
+						<cit type="example">
+							<quote>
+								Le jour que nâquit Châtillon,
+								On sonna double carillon
+								Par tous les clochers de Cythere,
+							</quote>
+							<bibl><author>Voi.</author></bibl>
+						</cit>
+						<def n="2">
+							On appelle aussi un carillon, un bon nombre de petits 
+							timbres de différentes grosseurs, ou de petites cloches 
+							qu'on fait sonner avec un bouton de fer, ou avec un 
+							clavier, soit qu'on le touche à la main, soit qu'il se 
+							meuve par machine avec un tambour : comme le carillon 
+							de la Samaritaine.  Les carillons de Flandres sont 
+							composez de trente ou quarante timbres qui font les 
+							mêmes tons, degrez &amp; intervalles de Musique que les 
+							tuyaux des orgues : aussi les fait-on sonner en frappant 
+							sur les touches d'un gros clavier, &amp; on en fait d'agreables 
+							concerts. Autrefois le carillon étoit la même chose 
+							que le tocsin ; car on sonnoit dans les rejouïssances de 
+							même que dans les allarmes : d'où vient que quelques 
+							Auteurs appellent le carillon, pulsatio terroris<pc>.</pc>
+						</def>
+					</sense>
+					<sense n="2">
+						<form><orth>Carillon</orth></form><pc>,</pc>
+						<def>
+							se dit aussi, mais bassement, des crieries 
+							que font les femmes de mauvaise humeur, ou les 
+							personnes du bas peuple, lorsqu'elles querellent, ou 
+							injurient quelcun. Quand ce mari va au cabaret, sa 
+							femme lui fait un beau carillon.
+						</def>
+						<note n="1">
+							On dit proverbialement, qu'un homme a été battu, 
+							foüetté, étrillé à double carillon ; pour dire, 
+							fortement &amp; outrageusement.
+						</note>
+						<note n="2">
+							On appelle fer de carillon, un petit fer qui n'a que 8. à 9. 
+							lignes en quarré<pc>.</pc>
+						</note>
+					</sense>
+				</entry>
+
+				<entry xml:id="carillonner">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARILLONNER</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>v.</pos>
+							<subc>act.</subc>
+							<subc>absolu.</subc>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Sonner les cloches en maniere de carillon.
+						</def>
+						<etym>
+							<lbl>Ce mot vient de</lbl>
+							<foreign>quadrillonnar</foreign>
+							<lbl>, qui a été fait de</lbl>
+							<foreign>quadrilla</foreign>
+							<lbl>, mot</lbl>
+							<lang>Espagnol</lang>
+							<gloss>
+								qui signifie un petit escadron, diminutif 
+								de quadra, à cause que les carillons se font d'ordinaire 
+								avec quatre cloches. Men.
+							</gloss>
+						</etym>
+					</sense>
+				</entry>
+
+				<entry xml:id="carillonneur">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARILLONNEUR</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Celui qui fait sonner 
+							les cloches avec une cadence agreable ; qui fait le 
+							carillon<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="cariole">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARIOLE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Petite voiture à deux rouës, &amp; 
+							suspenduë sur des moutons, &amp; couverte ordinairement 
+							de cuir.  La cariole de Poissi.  Cet homme a fait 
+							faire une cariole pour aller seul à la campagne.
+						</def>
+						<etym>
+							<lbl>Ce mot vient du</lbl>
+							<lang>Latin</lang>
+							<foreign>carrus</foreign>
+							<gloss>dont il est un diminutif.</gloss>
+						</etym>
+					</sense>
+				</entry>
+
+				<entry xml:id="carisel">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARISEL</orth>
+						</form><pc>,</pc>
+						<lbl>ou</lbl>
+						<form type="variant">
+							<orth>CRESEAU</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Grosse toile 
+							claire qui sert pour travailler en tapisserie, de même 
+							que le canevas. On en vend de blanc &amp; de teint<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carlet">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARLET</orth>
+						</form>
+						<pc>.</pc>
+					</form>
+					<xr type="see">
+						<lbl>Voyez</lbl>
+						<ref target="#carrelet">CARRELET</ref>
+					</xr>
+				</entry>
+
+				<entry xml:id="carline">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARLINE</orth>
+						</form><pc>,</pc>
+						<lbl>ou</lbl>
+						<form type="variant">
+							<orth>CAROLINE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Plante dont il y a plusieurs especes.  Celle que G. Bauhin 
+							appelle carlina acaulos magno flore, n'a point de tige, &amp; 
+							pousse de sa racine de grandes feuilles, longues, larges, 
+							decouppées profondement, couchées par terre, garnies 
+							de pointes dures.  Il sort d'entre ces feuilles une tête 
+							large, orbiculaire, garnie de feuilles fort épineuses, 
+							soutenant des fleurs radiées, de couleur purpurine. 
+							Ces fleurs sont suivies de semences oblongues, garnies 
+							d'une brosse de poils.  Sa racine s'étend çà &amp; là, &amp; 
+							entre profondement dans la terre : elle est grosse comme 
+							le pouce, de couleur obscure au dehors, blanche 
+							au dedans, d'un goût aromatique.  Cette plante est 
+							bonne pour la peste, &amp; pour les autres maladies contagieuses, 
+							pour provoquer les mois aux femmes, pour les vers, pour 
+							les affections hypochondriaques. Elle a 
+							été ainsi appellée, parce que l'on assûre que du temps 
+							de Charlemagne on reconnut qu'elle étoit propre contre la peste<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carlingue">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARLINGUE</orth>
+						</form><pc>,</pc>
+						<lbl>ou</lbl>
+						<form type="variant">
+							<orth>ESCARLINGUE</orth>
+						</form>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<usg type="domain" ana="#term_marine">
+							Terme de Marine
+						</usg>
+						<pc>.</pc>
+						<def>
+							Piece de bois qui regne presque le 
+							long du vaisseau directement au dessus de la quille pour 
+							faire liaison ensemble ; c'est pourquoi plusieurs l'appellent 
+							contrequille.  Ces deux pieces servent de fondement 
+							à tout le corps du vaisseau, parceque les varangues 
+							&amp; les autres membres de charpenterie y sont assemblez. 
+							C'est aussi sur la carlingue que l'on pose le pied du grand 
+							mât.  C'est pourquoi on appelle encore carlingue, une 
+							piece de bois qu'on met au pied de chaque mât<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carme">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARME</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense n="1">
+						<def>
+							Ordre de Religieux, &amp; l'un des quatre 
+							Mendians ; il pretend tirer son nom du Mont Carmel 
+							en Syrie, qu'on dit avoir été habité par Elie.  Ils 
+							ont été amenez en France par le Roi Louïs IX.  Il est 
+							celebre par la devotion du Scapulaire, &amp; par la vision 
+							de Simon Stock, à qui il fut donné par la Sainte 
+							Vierge.  Sur quoi de Launoy a écrit une curieuse Dissertation. 
+							La Vierge attacha ce privilege au Scapulaire, &amp; 
+							à l'habit des Carmes, que ceux qui meurent le Samedi 
+							chargez de ces pieuses depouilles, sont exempts des 
+							flammes du Purgatoire. Les Carmes se disent oncles de 
+							J. Christ, &amp; freres de la Vierge. On dit les Carmes 
+							du grand Couvent ; les Carmes Mitigez, qu'on 
+							nomme à Paris Billettes ; &amp; les Carmes Dechaussez, 
+							qui ont été reformez. Dans des Theses soutenuës à 
+							Beziers les Carmes ont posé ;  qu'il est fort probable 
+							que Pythagore étoit Carme, &amp; que les Druides des 
+							Gaulois gardoient aussi les observances regulieres des Carmes. 
+						</def>
+						<xr>
+							<lbl>Voyez</lbl> le I. tome de la <bibl>Republ. des Lettres</bibl><pc>.</pc>
+						</xr>
+						<note>
+							On dit proverbialement, il b... comme un Carme. 
+							C'est une expression de debauche.
+						</note>
+						<note>
+							<mentioned>L'Ordre du Mont Carmel</mentioned>, est un Ordre Militaire de Chevaliers 
+							Hospitaliers, fondé par le Roi Henri IV. sous 
+							le titre, l'habit, &amp; la Regle de Nôtre Dame du Mont 
+							Carmel ; &amp; en consequence des Bulles du 16. Fevrier 
+							1607. il a été uni à l'Ordre des Chevaliers de St. Lazare 
+							de Jerusalem, le 31. d'Octobre 1608. avec toutes 
+							ses Commanderies, Prieurez, &amp; autres biens. 
+							Les Chevaliers de cet Ordre ont le privilege de se 
+							marier. Il est divisé en cinq Grands Prieurez ; &amp; sous 
+							chaque Grand Prieuré il y a 28. Commanderies. Les cinq 
+							Grands Prieurs sont le Grand Prieur de Normandie, 
+							de Bretagne, de Bourgogne, de Flandre, &amp; de Languedoc. 
+							La maison conventuelle de l'Ordre est la Commanderie 
+							de Boigni près d'Orleans.  Le Roi nomme 
+							aux Grands Prieurez, &amp; aux Commanderies les Officiers 
+							de guerre qui ont bien servi.  Ce n'est point le 
+							Grand Maître de l'Ordre. Les Chevaliers portent une 
+							croix d'or à huit pointes cantonnée de quatre fleurs de 
+							lis attachée à un ruban rouge.  Les Grands Prieurs de 
+							l'Ordre portent cette croix attachée à un large ruban 
+							mis en écharpe. Par Edit de 1672. le Roi avoit reüni 
+							les leproseries, &amp; maladeries à l'Ordre du Mont Carmel, 
+							&amp; de St. Lazare ; mais elles en ont été detachées par 
+							un autre Edit en 1693<pc>.</pc>
+						</note>
+					</sense>
+					<sense n="2">
+						<form><orth>Carme</orth></form><pc>,</pc>
+						<def>est aussi une espece d'acier.
+						</def>
+						<xr type="see">
+							<lbl>Voyez</lbl>
+							<ref target="#acier">Acier</ref>
+							<pc>.</pc>
+						</xr>
+					</sense>
+					<sense n="3">
+						<form><orth>Carme</orth></form><pc>,</pc>
+						<def>vieux mot qui signifioit un vers.
+						</def>
+						<etym>
+							<lbl>Il vient du</lbl> <lang>Latin</lang>
+							<foreign>carmen</foreign> <pc>; &amp;</pc>
+							<gloss>en ce sens il est tout-à-fait hors d'usage.</gloss>
+						</etym>
+					</sense>
+				</entry>
+
+				<entry xml:id="carmelite">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARMELITE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp><pos>s.</pos><gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Religieuse qui vit sous la même 
+							Regle des Carmes ; cet Ordre est devenu celebre 
+							par Sainte Therese.  Le Cardinal Berule les avoit 
+							attirées en France deux ans avant que les Carmes 
+							Dechaussez s'y fussent venu établir<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carmes">
+					<form type="lemma">
+							<orth>CARMES</orth>
+					</form><pc>.</pc>
+					<sense>
+						<usg type="domain" ana="#term_jeu_de_triquetrac">
+							Terme du jeu de Triquetrac
+						</usg><pc>,</pc>
+						<def>
+							qui signifie deux 4. que les deux dez amenent. 
+							On les appelle aussi quadernes<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carmin">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARMIN</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							C'est une poudre d'un très-beau 
+							rouge foncé, qu'on tire de la cochenille par le moyen 
+							d'une eau dans laquelle on a fait infuser du choüan &amp; 
+							de l'autour.  On en fait aussi avec du bois de Bresil de 
+							Fernambouc, battu dans un mortier, &amp; trempé dans 
+							du vinaigre blanc : l'écume qui en sort, après avoir 
+							bouilli, est le carmin, qu'on fait secher. Le carmin est 
+							employé par les Enlumineurs &amp; les Peintres en miniature<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carmnatif">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARMNATIF</orth>
+						</form><pc>,</pc>
+						<form type="inflected">
+							<orth type="adj" extent="suff">ive</orth>
+						</form><pc>.</pc>
+						<gramGrp><pos>adj.</pos></gramGrp>
+					</form>
+					<sense>
+						<usg type="domain" ana="#term_medecine">
+							Terme de Medecine
+						</usg><pc>.</pc>
+						<def>
+							Remede propre pour dissiper les vents.  On met de 
+							l'anis dans les lavemens pour les rendre carminatifs. 
+							On appelle les quatre fleurs carminatives, celles de 
+							camomille, de melilot, de matricaire, &amp; d'anet.
+						</def>
+					</sense>
+					<etym>
+						<lbl>Ce mot vient du</lbl>
+						<lang>Latin</lang>
+						<foreign>carminare</foreign>
+						<pc>,</pc>
+						<gloss>
+							qui signifie carder, tirer 
+							ce qu'il y a de grossier, purger.
+						</gloss>
+					</etym>
+				</entry>
+
+				<entry xml:id="carnacier">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARNACIER</orth>
+						</form><pc>,</pc>
+						<form type="inflected">
+							<orth type="adj" extent="suff">ière</orth>
+						</form><pc>.</pc>
+						<gramGrp>
+							<pos>adj.</pos>
+						</gramGrp>
+					</form>
+					<sense n="1">
+						<def>
+							Qui ne se repaît, qui 
+							ne vit que de chair. En ce sens il se dit des animaux 
+							farouches ; comme les lions, les loups, &amp; les oiseaux 
+							de proye.
+						</def>
+					</sense>
+					<etym>
+						<lbl>Ce mot vient du</lbl><lang>Latin</lang>
+						<foreign>caro</foreign><pc>,</pc>
+						<foreign>carnis</foreign><pc>,</pc>
+						<foreign>chair</foreign><pc>.</pc>
+					</etym>
+					<sense n="2">
+						<form>
+							<orth>Carnacier</orth>
+						</form><pc>,</pc>
+						<def>
+							se dit aussi d'un homme goulu, &amp; qui 
+							mange beaucoup de chair. Les hommes carnaciers sont 
+							sujets à avoir l'haleine puante<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carnage">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARNAGE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense n="1">
+						<def>
+							Massacre ; meurtre de plusieurs 
+							personnes.  Charles Martel fit un horrible carnage des 
+							Sarazins dans les plaines de Tours.  Etre avide de sang 
+							&amp; de carnage.  La victoire de Cesar fut plutôt un 
+							carnage qu'une bataille, Abl. Les passions de l'homme 
+							ont fait de la terre un theâtre de carnage, &amp; d'horreur, 
+							Oe. M. La colere n'a point de plus doux objets que la 
+							vengeance, &amp; le carnage, Fel.
+						</def>
+						<cit type="example">
+							<quote>
+								A quoi bon d'une Muse au carnage animée, 
+								Echausser ta valeur dejà trop allumée
+							</quote><pc>,</pc> 
+							<bibl><author>Boi.</author></bibl>
+						</cit>
+						<note>
+							On le dit aussi en termes de Chasse. A la Fête de St. Hubert 
+							il se fait un grand carnage de gibier<pc>.</pc>
+						</note>
+					</sense>
+					<sense n="2">
+						<form>
+							<orth>Carnage</orth>
+						</form><pc>,</pc>
+						<def>
+							signifie aussi, Cadavre, charogne, qui servent 
+							de pâture aux animaux.  Il y a plusieurs oiseaux 
+							qui vivent de carnage.  Un vautour affamé de carnage<pc>.</pc>
+						</def>
+					</sense>
+					<sense n="3">
+						<form>
+							<orth>Carnage</orth>
+						</form><pc>,</pc>
+						<def>
+							est aussi en particulier une carcasse de cheval 
+							pour faire venir les loups, &amp; les renards sur la piste. 
+							On dit aussi, qu'on fait carnage aux chiens de chair de 
+							mulet, ou d'autres animaux, quand on leur en donne à manger<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carnation">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARNATION</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<usg type="domain" ana="#term_peinture">
+							Terme de Peinture
+						</usg><pc>;</pc>
+						<def>
+							couleur des chairs qui sont nuës &amp; sans draperie.  Voilà une 
+							carnation vive &amp; naturelle.  Le Titien &amp; le Correge 
+							en Italie ; Rubens &amp; Van Dijk en Flandres ont excellé 
+							dans les carnations. Van Dijk a même surpassé Rubens 
+							son maître dans la delicatesse des carnations. Van Dijk 
+							a fait des carnations plus fraîches, &amp; plus veritables 
+							que Rubens, De Piles.  Il faut remarquer sur le 
+							mot carnation, qu'il ne se dit point d'une partie 
+							particuliere de la personne qui est peinte.  Ce seroit mal 
+							parler, par exemple, que de dire ce bras est d'une belle 
+							carnation ; il faut dire, ce bras est bien de chair.
+						</def>
+						<note>
+							On le dit aussi en termes de Blason, des parties nuës du 
+							corps peintes au naturel : &amp; particulierement du visage, 
+							des mains, &amp; des pieds<pc>.</pc>
+						</note>
+					</sense>
+				</entry>
+
+				<entry xml:id="carnau">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARNAU</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Nom que donnent les Matelots à 
+							l'angle de la voile Latine qui est vers la prouë<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carnaval">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARNAVAL</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Temps de rejouïssance qui se 
+							compte depuis les Rois jusqu'au Carême. Les bals, 
+							les festins, les mascarades font les plaisirs du Carnaval. 
+							Passer agreablement le carnaval. Le temps du Carnaval 
+							est la veritable moisson des amours, St. Didier.
+						</def>
+					</sense>
+					<etym>
+						<lbl>Ce mot vient de l'</lbl>
+						<lang>Italien</lang> 
+						<foreign>carnavale</foreign>
+						<gloss>, Men. Mais Du 
+							Cange dit qu'il vient de carn-a-val, parceque la chair 
+							s'en va ; &amp; dit qu'en la basse Latinité on l'a appellé 
+							carnelevamen, carnisprivium ; &amp; les Espagnols carnes 
+							tollendas.
+						</gloss>
+					</etym>
+				</entry>
+
+				<entry xml:id="carne">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARNE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Angle, ou pointe solide, composée 
+							de plusieurs superficies inclinées l'une vers l'autre.  Il 
+							s'est donné un coup dangereux contre la carne de cette 
+							table, de cette cheminée, de cette pierre<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carné">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARNÉ</orth>
+						</form><pc>,</pc>
+						<form type="inflected">
+							<orth type="adj">ée</orth>
+						</form><pc>.</pc>
+						<gramGrp>
+							<pos>adj.</pos>
+						</gramGrp>
+					</form>
+					<sense>
+						<usg type="domain" ana="#term_fleuriste">
+							Terme de Fleuriste
+						</usg><pc>.</pc>
+						<def>
+							Qui est de 
+							couleur de chair vive. Anemone carnée. Fleur nuée de 
+							carné<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carneau">
+					<form type="lemma">
+						<orth>CARNEAU</orth>
+					</form><pc>.</pc>
+					<xr type="see">
+						<lbl>Voyez</lbl>
+						<ref target="#creneau">Creneau</ref>
+						<pc>.</pc>
+					</xr>
+				</entry>
+
+				<entry xml:id="carnele">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARNELE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Bordure d'espece de monnoye paroissant 
+							autour du cordon qui ferme la legende<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carneler">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARNELER</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>v.</pos>
+							<subc>act.</subc>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Faire la carnele<pc>.</pc>
+						</def>
+					</sense>
+					<re>
+						<form type="inflected"><orth>Carnelé</orth>
+						</form><pc>.</pc>
+						<sense>
+							<usg type="domain" ana="#term_blason">
+								Terme de Blason
+							</usg><pc>.</pc>
+							<note>
+								En <lang>Latin</lang>
+								<foreign>pinnatus</foreign>, Pomey<pc>.</pc>
+							</note>
+						</sense>
+					</re>
+				</entry>
+
+				<entry xml:id="carnet">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARNET</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<usg type="domain" ana="#term_negoce">
+							Terme de Negoce
+						</usg><pc>;</pc>
+						<def>
+							memoire que 
+							tient un Marchand de toutes ses dettes passives, &amp; du 
+							jour qu'elles doivent être payées ; c'est un extrait de 
+							son livre d'achat, afin de ne pas manquer d'argent dans 
+							les payemens qu'il doit faire<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carnier">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARNIER</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<usg type="domain" ana="#term_chasse">
+							Terme de chasse
+						</usg><pc>.</pc>
+						<def>
+							Espece de bissac 
+							pour mettre le gibier.  Il est composé de deux poches 
+							à l'antique en maniere d'escarcelles plus larges par 
+							le bas, &amp; qui tiennent ensemble.  Le dessous est de 
+							cuir, &amp; le dessus a jour par raizeaux, afin que le 
+							gibier ait de l'air. Quand le Roi va à la chasse le premier 
+							page de la petite écurie ramasse le gibier, &amp; le met 
+							dans le carnier, &amp; le porte jusques dans la Chambre 
+							du Roi<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carnosité">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARNOSITÉ</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<usg type="domain" ana="#term_chirurgie">
+							Terme de Chirurgie
+						</usg><pc>.</pc>
+						<def>
+							Petite excrescence de chair qui se forme dans la verge, &amp; qui 
+							bouche le conduit de l'urine. Les carnositez sont 
+							difficiles à guerir. On ne les connoît gueres que par la fonde 
+							qui est introduite dans ce passage, &amp; qui trouve de 
+							la resistance. Elle vient ordinairement d'une gonorrhée 
+							virulente mal guerie<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carobe">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CAROBE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense n="1">
+						<def>
+							Poids qui pèse 24. minutes. On l'appelle 
+							autrement prime<pc>.</pc>
+						</def>
+					</sense>
+					<sense n="2">
+						<form>
+							<orth>Carobe</orth>
+						</form><pc>.</pc>
+						<def>
+							Arbre, qui s'appelle autrement carouge, &amp; 
+							en <lang>Latin</lang> <foreign>siliqua edulis</foreign>, C. Bauh.
+						</def>
+					</sense>
+					<xr type="see">
+						<lbl>Voyez</lbl>
+						<ref target="#carouge">Carouge</ref>
+						<pc>.</pc>
+					</xr>
+				</entry>
+
+				<entry xml:id="carogne">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CAROGNE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<usg type="domain" ana="#term_injurieux">
+							Terme injurieux
+						</usg><pc>,</pc>
+						<def>
+							qui se dit entre 
+							les femmes du peuple. Il signifie, Debauchée ; 
+							coureuse, femme de mauvaise vie. C'est la même chose 
+							que charogne, quand on lui donne une prononciation 
+							Picarde. 
+						</def>
+					</sense>
+					<etym>
+						<lbl>Ce mot vient de</lbl>
+						<lang>caro</lang><pc>,</pc>
+						<gloss>comme qui diroit, 
+							chair pourrie.</gloss>
+					</etym>
+				</entry>
+
+				<entry xml:id="carolin">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CAROLIN</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>adj.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							C'est l'épithete que l'on donne 
+							aux 4. livres qui furent composez par les ordres de 
+							Charlemagne, pour refuter le II. Concile de Nicée. 
+							Ces livres Carolins contiennent 120. chefs d'accusation 
+							contre le Concile de Nicée ; &amp; ces accusations y sont 
+							proposées en termes très-atroces, &amp; très-injurieux<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="caroline">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CAROLINE</orth>
+						</form><pc>.</pc>
+					</form>
+					<sense>
+						<def>Plante.</def>
+					</sense>
+					<xr type="see">
+						<lbl>Voyez</lbl>
+						<ref target="#carline">Carline</ref>
+						<pc>.</pc>
+					</xr>
+				</entry>
+
+				<entry xml:id="carolus">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CAROLUS</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Monnoye de compte qui vaut dix 
+							deniers. Autrefois c'étoit une espece de grand blanc. 
+							Elle étoit marquée d'un K. parcequ'elle fut fabriquée 
+							du temps de Charles VIII. Roi de France, &amp; que 
+							le K étoit la premiere lettre de son nom. Cette monnoye 
+							ne passa pas le regne de Charles VIII. Louïs 
+							XII. la decria. Cependant elle se convertit en monnoye 
+							de compte : car quoique nous n'ayons point d'espece 
+							qui vaille 10. deniers, on se sert encore parmi le 
+							peuple du terme de Karolus, pour signifier dix deniers, 
+							Le Blanc. Henri III. refusa de donner bataille 
+							à Charles Duc de Mayenne pendant la Ligue, parce, 
+							disoit-il, qu'il ne falloit pas hazarder un double Henri 
+							contre un Carolus ; car il avoit alors avec lui le Roi de 
+							Navarre, qui depuis a été le Roi Henri IV.
+						</def>
+						<note>
+							On dit proverbialement, quand on veut bien mepriser une 
+							chose, qu'elle ne vaut pas un carolus. On dit d'un 
+							homme riche, qu'il a bien des carolus<pc>.</pc>
+						</note>
+					</sense>
+				</entry>
+
+				<entry xml:id="caron">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARON</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<usg type="domain" ana="#term_charcutier">
+							Terme de Charcutier
+						</usg><pc>.</pc>
+						<def>
+							Bande de lard d'où le maigre est ôté.
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="caroncule">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARONCULE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<usg type="domain" ana="#term_medecine">
+							Terme de Medecine
+						</usg><pc>.</pc>
+						<def>
+							Eminence charnuë. On appelle Caroncule lacrimale, une 
+							petite éminence qui est au grand coin de l'œil, &amp; que 
+							la plupart des Anatomistes prennent pour une glande. 
+							Cependant ce n'est autre chose dans l'homme, que la 
+							reünion de la membrance interieure des paupieres<pc>.</pc>
+						</def>
+					</sense>
+					<re>
+						<form type="phrase">
+							<orth>Caroncules myrtiformes</orth>
+						</form><pc>.</pc>
+						<sense>
+							<def>
+								Ce sont quatre 
+								petites éminences charnuës, qui sont ainsi appellées, 
+								parcequ'elles ressemblent aux graines de myrte.  
+								Elle sont situées dans les parties naturelles des 
+								femmes, assez près de l'entrée : elles sont rougeâtres, 
+								fermes &amp; relevées aux Vierges, dans lesquelles elles 
+								sont jointes l'une à l'autre par leurs parties laterales, 
+								par le moyen de quelques petites membrances.  Dans 
+								les femmes, &amp; sur tout à celles qui ont eu des enfans, 
+								elles sont separées les unes des autres.  Ces caroncules 
+								ne sont que des rides &amp; des inegalitez du vagina, ce qui 
+								en rend l'entrée plus étroite<pc>.</pc>
+							</def>
+						</sense>
+					</re>
+				</entry>
+
+				<entry xml:id="carotide">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CAROTIDE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>adj.</pos>
+						</gramGrp>
+					</form>
+					<sense>
+						<usg type="domain" ana="#term_medecine">
+							Terme de Medecine
+						</usg><pc>.</pc>
+						<def>
+							C'est le 
+							nom qu'on donne à deux arteres du cou, qui portent le 
+							sang au cerveau, &amp; qui montent le long des côtez de la 
+							trachée artere, avec les veines jugulaires internes. Il y 
+							en a une de chaque côté.  La droite vient du rameau 
+							droit souclavier ; &amp; la gauche de l'artere aorte 
+							immediatement.  Les Anciens mettoient le siege de 
+							l'assoupissement. Par la même raison on les a appellées, 
+							lethargiques &amp; apoplectiques.
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carotte">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CAROTTE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Sorte de plante dont il y a plusieurs 
+							especes. Celle que Mr. Tournefort appelle daucus 
+							sativus radice vel alba, pousse des feuilles amples, 
+							decoupées menu, vertes, veluës.  Sa tige croît à la 
+							hauteur de trois ou quatre pieds, ronde, droite, 
+							rameuse, portant en ses sommets des ombelles qui 
+							soutiennent de petites fleurs blanches, composées chacune 
+							de cinq feuilles inegales, disposées en fleur-de-lis 
+							de France. Lorsque cette fleur est passée, il paroît un 
+							fruit presque ovale, composé de deux graines veluës, 
+							rudes au toucher.  Sa racine est grosse, longue, charnuë, 
+							jaune ou blanche, d'un goût douceâtre. Cette 
+							racine est fort en usage dans les cuisines ; on la mange 
+							en potage &amp; en fricassée.  Il y a la carotte sauvage qui 
+							pousse des tiges à la hauteur d'environ deux pieds, &amp; 
+							dont les feuilles sont decoupées menu, veluës, de couleur 
+							verte obscure.  Ses fleurs &amp; ses fruits ressemblent 
+							aux fleurs &amp; aux fruits de la precedente. L'ombelle qui 
+							soutient les fleurs, prend la forme d'un nid d'oiseau, 
+							ce qui a donné lieu à quelques Auteurs d'appeller la 
+							plante nidus avis.  Sa racine est plus petite que celle de 
+							la carotte cultivée.  En Latin daucus vulgaris, Clus. 
+							Hist. P. Tournefort.  G. Bauhin l'appelle 
+							pastinaca sylvestris tenui folio Dioscoridis vel daucus Officinarum.  
+							La semence de cette plante est diuretique, 
+							aperitive, histerique<pc>.</pc>
+						</def>
+						<note>
+							On dit proverbialement d'un homme constipé, qu'il chie 
+							des carottes. Il y a un proverbe pareil en Italien.
+						</note>
+					</sense>
+				</entry>
+
+				<entry xml:id="carouge">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CAROUGE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense n="1">
+						<def>
+							Arbre de moyenne grandeur, 
+							qui pousse des rameaux grands &amp; fort étendus.  Ses 
+							feuilles sont rangées comme celles du frêne, mais plus 
+							larges, plus rondes, &amp; plus dures, de couleur verte-brune 
+							par dessus, plus claire par dessous.  Ses fleurs 
+							sont ordinairement à cinq étamines qui naissent des 
+							échancrures du calice.  Lorsqu'elles sont passées, il 
+							leur succede des siliques longues, larges, fort plates, 
+							de couleur rouge-obscure, d'une substance moëlleuse 
+							&amp; comme charnuë, creusée en travers de quelques 
+							fosses, dans chacune desquelles on trouve une semence 
+							plate.  En latin siliqua edulis, C. Bauh.  Les 
+							siliques du carouge étant encore vertes, ou même meures, 
+							ont un goût desagreable, mais quand on les fait secher, 
+							elles deviennent douces &amp; bonnes à manger.  On les 
+							croit très-bonnes dans la douleur &amp; dans l'ardeur de 
+							l'estomac.
+						</def>
+					</sense>
+					<sense n="2">
+						<form><orth>Carouge</orth>
+						</form><pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos><gen>f.</gen>
+						</gramGrp>
+						<def>
+							C'est le fruit de l'arbre qu'on appelle 
+							carouge<pc>.</pc>
+						</def>
+					</sense>					
+				</entry>
+
+				<entry xml:id="carpasum">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARPASUM</orth><pc>.</pc>
+						</form>						
+						<gramGrp>
+							<pos>s.</pos><gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Plante dont le jus pris en bruvage 
+							endort la personne, &amp; l'étouffe incontinent. Les 
+							remedes contre cette forte de poison sont semblables à 
+							ceux dont on se sert contre la ciguë.  Dioscoride n'en 
+							dit pas autre chose, desorte qu'on ne sçait aujourd'hui 
+							de quelle plante il a voulu parler.
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carpe">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARPE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense n="1">
+						<def>
+							Poisson d'eau douce fort commun, qui 
+							a des écailles assez larges &amp; jaunes ; il vit d'herbe, ou 
+							de limon.  La carpe aime les eaux bourbeuses, &amp; en 
+							trois ans devient grande d'un pied entre œil &amp; fourche, 
+							ou entre œil &amp; bat.  Willughbi en son Histoire des 
+							Poissons fait mention d'une carpe qui a vêtu cent ans. 
+							La carpe laitée est le mâle, &amp; l'œuvée la femelle. 
+							La langue de carpe est la chair qui forme son palais, 
+							qu'on nomme ainsi improprement ; car en effet elle n'a 
+							point de langue.
+						</def>
+						<note n="1">
+							Menage derive ce mot de carpa Latin qui se trouve en cette 
+							signification dans Cassiodore.  On croiroit peut-être à 
+							cause de la ressemblance des noms, que ce mot vient du 
+							Latin carpio, qui est un poisson qu'on trouve dans un 
+							lac d'Italie : mais il est tout different.  Les Grecs 
+							appellent la carpe, kyprinos, les Latins cyprinus.  On dit 
+							aussi en Latin carpio.
+						</note>
+						<note n="2">
+							On appelle le saut de la carpe, le saut que font les Baladins, 
+							après avoir plié tout le corps, &amp; joint la tête à leurs 
+							pieds, car la carpe en fait un pareil pour se sauver des 
+							filets, quand on la tire de l'eau.
+						</note>
+					</sense>
+					<sense n="2">
+						<form type="lemmaGrp">
+							<form type="lemma">
+								<orth>Carpe</orth>
+							</form>
+							<pc>.</pc>
+							<gramGrp>
+								<pos>s.</pos><gen>m.</gen>
+							</gramGrp>
+						</form>
+						<usg type="domain" ana="#term_anatomie">
+							Terme d'Anatomie
+						</usg><pc>.</pc>
+						<def>
+							Qui signifie le poignet 
+							ou la partie qui est entre le bras &amp; la paume de la 
+							main.  Il est composé de huit os, distribuez en deux 
+							rangs, dont celui de derriere est joint aux deux fociles 
+							par des cartilages &amp; des ligamens, &amp; celui de devant 
+							aux quatre os du metacarpe.  Les Medecins Arabes 
+							l'appellent rasette.
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carpeau">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARPEAU</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos><gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Petite carpe. On l'appelle autrement allevin.
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carpesium">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARPESIUM</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Plante dont Galien fait mention, 
+							mais d'une telle maniere qu'on ne sçait à prefent 
+							ce qu'elle est.  Quelques Botanistes croyent que le 
+							carpesium de Galien est le poivre d'Ethiopie, &amp; d'autres 
+							les cubebes<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carpettes">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARPETTES</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos><gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Ce sont de gros draps rayez 
+							qu'on appelle autrement tapis à emballer<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carpillon">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARPILLON</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							C'est la même chose que carpeau<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carpin">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARPIN</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Arbre<pc>.</pc>
+						</def>
+						<xr type="see">
+							<lbl>Voyez</lbl>
+							<ref target="#charme">Charme</ref>
+							<pc>.</pc>
+						</xr>
+					</sense>
+				</entry>
+
+				<entry xml:id="carpobalsame">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARPOBALSAME</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Fruit d'un arbrisseau 
+							qu'on appelle Baume<pc>.</pc> Ce fruit est fort semblable en 
+							grosseur, en figure &amp; en couleur à celui du terebinthe. 
+							Il est attaché à la plante par un petit calice, &amp; est 
+							couvert d'une petite membrane de couleur rougeâtre, 
+							ayant au dedans d'autres tuniques plus épaisses, sous lesquelles 
+							est contenuë sa semence pleine d'un suc jaune 
+							&amp; mielleux, dont le goût est un peu amer &amp; âcre, &amp; 
+							l'odeur agreable, approchant de celle du baume. Comme 
+							on doute si ce qu'on vend dans les boutiques sous le 
+							nom de carpobalsame, est le même que celui des 
+							Anciens, n'ayant pas les mêmes marques, on a 
+							accoutumé de lui substituer les cubebes, qui ont les même 
+							qualitez.
+						</def>
+						<etym>
+							<lbl>Ce mot vient de deux mots</lbl>
+							<lang>Grecs</lang>
+							<foreign>carpos</foreign><pc>,</pc> 
+							<gloss>fruit</gloss>, &amp; 
+							<foreign>balsamos</foreign>
+							<pc>,</pc> <gloss>baume</gloss><pc>.</pc>
+						</etym>
+					</sense>
+				</entry>
+
+				<entry xml:id="carquese">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARQUESE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos><gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<usg type="domain" ana="#term_verrerie">
+							Terme de Verrerie
+						</usg><pc>.</pc>
+						<def>
+							Four de frite.  C'est un four separé du four de la verrerie dans 
+							lequel on fait cuire les pots avant que de les mettre dans 
+							le four de la verrerie<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carquois">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARQUOIS</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Il y en a qui écrivent Carcois : 
+							mais mal. Etui de fleches. Un carquois de fleches. 
+							On peint Cupidon avec un arc &amp; son carquois, &amp; 
+							Diane de même<pc>.</pc>
+						</def>
+						<note>
+							Menage après Lipse tient que ce mot vient de l'Allemand 
+							kœcher, signifiant la même chose. Du Cange le derive 
+							de carcaissum, mot de la basse Latinité qu'on a dit dans 
+							le même sens<pc>.</pc>
+						</note>
+					</sense>
+				</entry>
+
+				<entry xml:id="carraque">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARRAQUE</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Grand vaisseau que les Portugais 
+							envoyent au Brezil, &amp; aux Indes Orientales. Ils 
+							les appellent naos par excellence : c'est-à-dire, vaisseaux. 
+							Ils sont ronds &amp; plus étroits par enhaut que par enbas ; 
+							ils ont quelquefois sept ou huit planchers, sur lesquels 
+							on peut loger deux mille hommes.  Les Portugais ont 
+							une ordonnance ou coutume, que les naos, ou carraques 
+							qui viennent des Indes Orientales ne peuvent mener 
+							de chalouppe, ni autre barque de service en deçà 
+							de l'Ile de Sainte Helene, auquel lieu ils les coulent à 
+							fond, afin d'ôter toute esperance à l'équipage de se 
+							sauver.  Ils s'en servoient autrefois tant en guerre qu'en 
+							marchandise.  La carraque étoit du port de deux mille 
+							tonneaux ; c'est-à-dire, de quatre millions de livres. 
+							Les Chevaliers de Rhodes s'en sont aussi servis<pc>.</pc>
+						</def>
+						<note>
+							Les carraques sont aussi de grands vaisseaux de charge<pc>.</pc>
+						</note>
+					</sense>
+				</entry>
+
+				<entry xml:id="carraquon">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARRAQUON</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Petite carraque, ou vaisseau renforcé<pc>.</pc>
+						</def>
+					</sense>
+				</entry>
+
+				<entry xml:id="carré">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARRÉ</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense n="1">
+						<usg type="domain" ana="#term_monnoyeur">
+							Terme de Monnoyeur
+						</usg><pc>.</pc>
+						<def>
+							Morceau d'acier quarré, &amp; en forme de dé.  On recuit le carré &amp; 
+							on le rougit au feu pour l'adoucir, &amp; le rendre plus facile 
+							à recevoir l'empreinte du poinçon. Ensuite avec 
+							des machines pesantes, ou avec un marteau, on frappe 
+							sur le poinçon pour le faire imprimer dans le carré ; 
+							&amp; le carré reçoit en creux ce qui est ciselé, ou gravé 
+							en relief sur le poinçon.  Comme le carré ne reçoit pas 
+							tous les traits du poinçon, on le finit, &amp; on l'acheve 
+							avec des ciselets, burins, ou autres outils d'acier. On 
+							grave quelquefois des carrez sans le poinçon, &amp; quand 
+							ils ont été bien trempez l'on y forme des poinçons de 
+							même que l'on forme des carrez avec les poinçons : 
+							ces carrez alors s'appellent matrices. Les carrez pour 
+							les monnoyes, &amp; les jettons doivent être moins creux 
+							que pour les medailles.  Quand le carré est bien preparé, 
+							&amp; qu'on veut monnoyer la medaille, on se sert de 
+							tenailles, ou d'une boîte d'acier, &amp; l'on y emboîte 
+							un carré d'un côté, &amp; un carré de l'autre pour faire les 
+							deux côtez de la medaille.  On place les flans, ou la 
+							piece d'or ou d'argent qu'on veut marquer, entre ces 
+							deux carrez, &amp; avec la presse, ou le balancier, on 
+							presse la matiere entre les deux carrez ; si la medaille, 
+							ou la monnoye n'est pas assez marquée on la remet dans 
+							les carrez ; &amp; il y a des medailles qu'on repasse jusqu'à 
+							10. fois. Mais la monnoye s'imprime d'ordinaire d'un 
+							seul coup : cette difference vient de la difference du 
+							relief<pc>.</pc>
+						</def>
+					</sense>
+					<sense n="2">
+						<form><orth>Carré</orth></form>
+						<pc>.</pc>
+						<xr type="see">
+							<lbl>Voyez</lbl>
+							<ref target="#quarré">Quarré</ref>
+							<pc>.</pc>
+						</xr>
+					</sense>
+				</entry>
+
+				<entry xml:id="carreau">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARREAU</orth>
+						</form>
+						<pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense n="1">
+						<def>
+							Diminutif de <ref target="#carré">Carré</ref> ; il se dit 
+							d'une figure qui a quatre côtez, quoiqu'ils ne soient 
+							pas égaux, ni à angles droits ; comme un carreau de 
+							vitres qui est quelquefois en losange. On dit, une étoffe 
+							à petits carreaux. Plier du linge par petits carreaux. 
+							Les Jardiniers divisent leurs parterres, ou jardins en 
+							carreaux. Il y a un beau carreau de tulippes ;  c'est-à-dire 
+							une planche. Carreau de parterre, est un espace 
+							quarré, ou figuré avec une bordure de buis nain, rempli 
+							de fleurs, ou de gazon dans le compartiment d'un 
+							parterre de pieces coupées. Ce mot a été fait de quadrellum, 
+							Menage<pc>.</pc>
+						</def>
+					</sense>
+					<sense n="2">
+						<form><orth>Carreau</orth></form>
+						<pc>,</pc>
+						<def>
+							signifie aussi le pavé des chambres, des 
+							sales, des Eglises, de quelque matiere &amp; figure qu'il 
+							puisse être. Il y a des carreaux de marbre, de poterie, 
+							de fayence, il y en a de quarrez, d'hexagônes, &amp;c.
+						</def>
+						<note>
+							En ce sens on dit au jeu de Paume, une chasse à trois 
+							carreaux, à dix carreaux, lorsqu'une balle est tombée 
+							sur le troisiéme, ou le dixiéme carreau, &amp; qu'elle fait 
+							chasse.
+						</note>
+					</sense>
+					<re n="1">
+						<form type="phrase">
+							<orth>Carreau vernissé</orth>
+						</form><pc>,</pc>
+						<sense>
+							<def>
+								est un grand carreau plombé, 
+								qu'on met dans les Ecuries, au dessus des mangeoires 
+								des chevaux, ce qui les empêche de lecher le mur. On 
+								fait aussi du petit carreau vernissé pour les compartimens.
+							</def>
+						</sense>
+					</re>
+					<re n="2">
+						<form type="phrase">
+							<orth>Carreau de parquet</orth>
+						</form><pc>,</pc>
+						<sense>
+							<def>
+								est un petit ais quarré. 
+								Il en faut plusieurs pour remplir la carcasse d'une feuille 
+								de parquet.
+							</def>
+						</sense>
+					</re>
+					<sense n="3">
+						<form><orth>Carreau</orth></form>
+						<pc>,</pc>
+						<def>
+							se dit aussi du pavé de la ruë, ou même de 
+							la terre simplement. On a mis ses meubles sur le 
+							carreau ; c'est-à-dire, hors du logis. Il est demeuré deux 
+							hommes sur le carreau ; pour dire, ils ont été mis par 
+							terre, &amp; tuez.  On l'a jetté sur le carreau.  Il a été 
+							obligé de coucher sur le carreau ; c'est-à-dire, dehors ; 
+							sur le pavé, sur la terre.
+						</def>
+					</sense>
+					<sense n="4">
+						<form><orth>Carreau</orth></form>
+						<pc>,</pc>
+						<def>
+							signifie aussi, un grand oreiller, ou coussin 
+							quarré de velours, que les Dames &amp; les Evêques se 
+							font porter à l'Eglise pour se mettre à genoux plus 
+							commodément : ce qui est aussi une marque de qualité. 
+							C'est une Dame à carreau, on lui porte le carreau. Les 
+							femmes des gens d'épée ont des carreaux avec des galons 
+							d'argent.  Celles des gens de robbe en ont seulement 
+							avec des broderies de foye.
+						</def>
+						<note>
+							On a aussi des carreaux dans les chambres pour s'asseoir 
+							ou s'accouder.  Les Cavaliers étoient au bal au pied 
+							des Dames sur des carreaux.  Un porte-carreau, est un 
+							petit meuble de bois qui n'a d'autres pieds que des 
+							pommes tournées, sur lequel on met des piles de carreaux.
+						</note>
+					</sense>
+					<sense n="5">
+						<form type="inflected">
+							<orth>Carreaux</orth>
+						</form><pc>,</pc>
+						<def>
+							en termes de Marine, sont des rebords, 
+							ou bandes de bois qui regnent par dehors sur le bordage 
+							du vaisseau en guise d'un cordon, qui lie &amp; distingue les 
+							tillacs, &amp; particulierement ceux qui sont au dessus de 
+							l'eau. On les appelle autrement lisses, cintes, ou precintes, 
+							ou chaintes.  On donne le même nom de carreaux 
+							à certaines pieces de bois qui font le haut des 
+							côtez d'une chaloupe.
+						</def>
+					</sense>
+					<sense n="6">
+						<form><orth>Carreau</orth></form>
+						<pc>,</pc>
+						<def>
+							en termes de Maçon, est une pierre de 
+							taille de mediocre grosseur, &amp; qui a plus de largeur au 
+							parement, que de queuë dans le mur.  Il en faut deux 
+							ou trois pour faire une voye. Quand il n'y en a qu'un, 
+							on l'appelle quartier.  Quand il y en a plus de 2. ou 3. 
+							on dit libes, ou libage.  Le libage n'est que du gros 
+							moilon qui se fait du ciel des carrieres.
+						</def>
+						<note>
+							On appelloit aussi autrefois carreaux, de grosses pierres 
+							qu'on jettoit dans les villes assiegées avec des mangonneaux, 
+							qui pesoient quelquefois la charge d'un char 
+							qu'on nommoit carrus ; ce qui leur fit donner ce nom, 
+							aussi-bien qu'à carriere, qui étoit le lieu d'où on les tiroit.
+						</note>
+					</sense>
+					<sense n="7">
+						<form><orth>Carreau</orth></form>
+						<pc>,</pc>
+						<def>
+							est aussi une arme de trait, ou fleche 
+							quarrée, qu'on tire avec une arbalête. C'est par 
+							comparaison qu'on appelle le carreau de la foudre, le trait 
+							ou la pierre qu'on croit être dans la foudre, qui blesse 
+							&amp; qui tuë. Cette espece de carreau ne peut être qu'une 
+							matiere condensée, &amp; enflammée. On a dit autrefois 
+							Gareaux<pc>.</pc>
+						</def>
+					</sense>
+					<sense n="8">
+						<form><orth>Carreau</orth></form>
+						<pc>,</pc>
+						<def>
+							chez les Tailleurs, se dit d'un fer plat &amp; 
+							pointu par un bout, qu'on fait chauffer, &amp; qu'on passe 
+							sur les coutures pour applatir les lisieres.
+						</def>
+					</sense>
+					<sense n="9">
+						<form><orth>Carreau</orth></form>
+						<pc>,</pc>
+						<def>
+							chez les Marchands de poisson, se dit des 
+							brochets qui sont les plus gros, qu'ils appellent un 
+							brochet carreau : ce sont ceux dont on fait des presens.
+						</def>
+					</sense>
+					<sense n="10">
+						<form type="inflected">
+							<orth>Carreaux</orth>
+						</form>
+						<pc>,</pc>
+						<def>
+							se dit aussi chez les Artisans, des grosses 
+							limes. Les gros carreaux &amp; gros demi-carreaux servent 
+							à ébaucher le fer.  Les carreaux doux &amp; demi-carreaux 
+							sont des limes douces qui servent à le polir.
+						</def>
+					</sense>
+					<sense n="11">
+						<form><orth>Carreau</orth></form>
+						<pc>,</pc>
+						<def>
+							se dit aussi au jeu de cartes, des figures 
+							rouges marquées en losange.  Le Roi, la Dame de 
+							carreau. Il a une quinte major en carreau. On appelle 
+							le jeu du franc du carreau, un jeu où l'on jette une piece 
+							de monnoye en guise de palet sur un quarré qu'on a 
+							tracé en terre, &amp; divisé par ses diametres &amp; diagonales : 
+							celui qui met sur les lignes gagne quelque avantage.
+						</def>
+						<note>
+							On dit proverbialement &amp; bassement d'un homme qui a 
+							vomi, qu'il a jetté du cœur sur du carreau.  On dit 
+							aussi pour mepriser quelcun, que c'est un valet de carreau.
+						</note>
+					</sense>
+					<sense n="12">
+						<form><orth>Carreau</orth></form>
+						<pc>,</pc>
+						<def>
+							en termes de Monnoyes, se dit des pieces 
+							d'or ou d'argent qu'on taille pour fabriquer les especes. 
+							La premiere façon qu'on donne en la fabrique des monnoyes 
+							au marteau, est de tailler carreaux ; c'est-à-dire, 
+							coupper les lingots, ou lames d'or ou d'argent, en petits 
+							morceaux quarrez avec de grandes cisoires.  La seconde 
+							façon est de battre ou frapper carreaux ; ce qui se fait 
+							par un habile ouvrier sur une enclume oblongue qui est sur 
+							son banc dans sa fournaise.  La troisiéme façon 
+							est de recuire carreaux : &amp; la quatriéme de les ajuster, 
+							approcher, ou rebaiser pour les rendre de leur juste 
+							poids, &amp; ensuite les rechauffer &amp; flatir, eslaizer &amp; 
+							boicer, qui sont les cinq, six, sept &amp; huitiéme façons 
+							qu'on leur donne, après lesquelles les carreaux s'appellent 
+							flans ou especes.
+						</def>
+					</sense>
+				</entry>
+				
+				<entry xml:id="carrefour">
+					<form type="lemmaGrp">
+						<form type="lemma">
+							<orth>CARREFOUR</orth>
+						</form><pc>.</pc>
+						<gramGrp>
+							<pos>s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Lieu où aboutissent, &amp; où 
+							se croisent plusieurs ruës, ou chemins,  On fustige les 
+							criminels dans les places publiques, &amp; dans les 
+							carrefours. Les publications à son de trompe se font dans les 
+							carrefours.  Mon ame est pour vous miaulante, &amp; on 
+							l'entend en chaque carrefour, Voit.
+						</def>
+						<etym>
+							<lbl>Ce mot vient de</lbl>
+							<mentioned>quatre fourc</mentioned>, 
+							<gloss>
+								parceque fourc signifioit autrefois 
+								un angle aigu, comme celui que font les doigts 
+								l'un à l'égard de l'autre en les écartant, d'où a été 
+								fait aussi le mot de fourche.  Les Latins l'ont appellé 
+								<foreign>quadrivium</foreign>, 
+								<foreign>ubi quatuor via conveniunt</foreign>.
+							</gloss>
+						</etym>
+					</sense>
+				</entry>
+				
+			</div>
+		</body>
+	</text>
+</TEI>
